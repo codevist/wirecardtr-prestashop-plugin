@@ -1,0 +1,59 @@
+form#cc_form{
+    color:#333;
+}
+
+form#cc_form input.cc_cvc{
+}
+
+form#cc_form div.expiry{
+    width: 50%;
+}
+
+table#cc_table{
+    font-size:0.9em;
+    width:100%;
+}
+
+table#cc_table th.empty, td.empty{
+    border:0px !important;
+}
+
+table#cc_table td, table#cc_table th {
+    padding:5px;
+    margin:0;
+    border:1px solid #eee;
+    text-align: center;
+}
+
+table#cc_table tr:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+form#cc_form input[type="text"]{
+    font-size: 1.5em;
+    border-radius: 5px;
+    padding: 5px 4px;
+    vertical-align: initial;
+    line-height: 26px;
+    border-spacing: 2px;
+    border-style: solid;
+    border-color: #ccc;
+    color:green;
+}
+
+form#cc_form input.error {
+    color:red;
+}
+
+.has-error input {
+    border-width: 2px;
+}
+#cc_validation.text-danger:after {
+    content: 'Validation failed';
+    color:red;
+}
+#cc_validation.text-success:after {
+    content: 'Validation passed';
+    color:green;
+}
